@@ -9,11 +9,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Dyte SDK',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-    );
+    return MaterialApp(title: 'Dyte SDK', theme: ThemeData.dark());
   }
 }
