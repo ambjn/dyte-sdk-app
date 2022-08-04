@@ -43,6 +43,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.5"
+  dyte_client:
+    dependency: "direct main"
+    description:
+      name: dyte_client
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.8.3"
+  eventify:
+    dependency: transitive
+    description:
+      name: eventify
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.1"
   fake_async:
     dependency: transitive
     description:
@@ -158,3 +172,4 @@ packages:
     version: "2.1.2"
 sdks:
   dart: ">=2.18.0-165.1.beta <3.0.0"
+  flutter: ">=1.20.0"
